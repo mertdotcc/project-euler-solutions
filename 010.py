@@ -1,7 +1,7 @@
 import math
 import time
 
-def is_prime(number):
+def isPrime(number):
     if number > 1:
         if number == 2:
             return True
@@ -17,8 +17,8 @@ def sumOfPrimesUnder(num):
     sum = 0
     start = time.time()
     for i in range(2,num):
-        if is_prime(i):
+        if isPrime(i):
             sum += i
-    print("Sum = ", sum)
+    print("Sum:", sum)
     end = time.time() - start
-    print("Runtime =", end)
+    print("Runtime:", end)
