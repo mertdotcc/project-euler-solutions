@@ -5,7 +5,7 @@ def solve():
     start = time.time()
 
     # This problem can be treat as a simple combinatorics problem.
-    # When we are given a N by N grid, we need to make N moves to the right
+    # When we are given an N by N grid, we need to make N moves to the right
     # and N moves to the bottom. Since every move we are going to make,
     # i.e., either right or bottom, is indistinguishable, the problem
     # boils down to making N decisions from 2N possible cases.
